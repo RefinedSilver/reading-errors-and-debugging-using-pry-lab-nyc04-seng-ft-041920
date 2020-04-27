@@ -9,7 +9,7 @@ def state_log(generate_star_date)
   "Captain's Log, star date #{generate_star_date}."
 end
 
-def engage(date)
+def engage
   state_log(date)
   date = generate_star_date
 end
